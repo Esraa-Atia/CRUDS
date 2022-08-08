@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #222;
+    color: #fff;
+    font-family: cursive;
+}
+.crud {
+    width: 80%;
+    margin: auto;
+}
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    color: #fff;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+}
+input:focus {
+    background: #000;
+    transform: scale(1.1);
+}
+.price input {
+    width: 20%;
+}
+#total {
+    background: brown;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before {
+    content: 'Total:';
+}
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgb(82, 1, 82);
+    color: #fff;
+    border-radius: 20px;
+    transition: .5s;
+}
+button:hover {
+    background: rgb(110, 20, 95);
+    letter-spacing: 1px;
+}
+.btnSearch {
+    display: flex;
+    justify-content: space-between;
+}
+#deleteAll {
+    margin: 20px 0;
+}
+.btnSearch button{
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: aqua;
+}
+th,td {
+    padding: 5px;
+}
